@@ -1,0 +1,16 @@
+{
+  "name": "@theantitwink/update-package-version",
+  "author": "The Antitwink™️",
+  "license": "MIT",
+  "version": "0.0.3",
+  "devDependencies": {
+    "root": "github:actions/toolkit"
+  },
+  "description": "Updates an npm package.json file to match a version number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": []
+}
