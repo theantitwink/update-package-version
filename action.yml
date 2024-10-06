@@ -1,0 +1,15 @@
+name: Update package version
+description: Updates the version number in a package.json file to match a specified value.
+author: The Antitwink™️
+
+branding:
+  icon: 'package'
+  color: 'blue'
+
+inputs:
+  version:  
+    description: The version number to set in the package.json file.
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
