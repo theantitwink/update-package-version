@@ -4,13 +4,15 @@
   "license": "MIT",
   "version": "0.0.3",
   "devDependencies": {
-    "root": "github:actions/toolkit"
+    "root": "github:actions/toolkit",
+    "@vercel/ncc": "latest",
+     "typescript": "^4.4.2"
   },
   "description": "Updates an npm package.json file to match a version number",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "ncc build ./src/index.ts "
   },
   "keywords": [],
   "dependencies": {
