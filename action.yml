@@ -10,6 +10,11 @@ inputs:
   version:  
     description: The version number to set in the package.json file.
     required: true
+  package-json-path:  
+    description: The path to the package.json file to update.
+    required: false
+    default: './package.json'
 runs:
   using: 'node20'
   main: 'dist/index.js'
+  
